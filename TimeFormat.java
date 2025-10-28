@@ -20,6 +20,10 @@ public class TimeFormat {
 			timeFormat = " PM";
 		}
 
-		System.out.println(hours+":"+minutes +timeFormat);
+		if (minutes < 10){
+			System.out.println(hours+":0"+minutes +timeFormat);
+		}
+		else System.out.println(hours+":"+minutes +timeFormat);
+	
 	}
 }
