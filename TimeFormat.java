@@ -15,10 +15,11 @@ public class TimeFormat {
         // Replace this comment with the rest of your code
 		String timeFormat = " AM";
 
-		if (hours > 13){
+		if (hours > 12){
 			hours = hours - 12;
 			timeFormat = " PM";
 		}
+		else if (hours == 12) timeFormat = " PM";
 
 		if (minutes < 10){
 			System.out.println(hours+":0"+minutes +timeFormat);
