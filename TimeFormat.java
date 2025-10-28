@@ -15,7 +15,7 @@ public class TimeFormat {
         // Replace this comment with the rest of your code
 		String timeFormat = " AM";
 
-		if (hours > 12){
+		if (hours > 13){
 			hours = hours - 12;
 			timeFormat = " PM";
 		}
