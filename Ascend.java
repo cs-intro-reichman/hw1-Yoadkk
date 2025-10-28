@@ -25,6 +25,5 @@ public class Ascend {
 		//Print the resaults 
 		System.out.println(minabc + " " + midNum + " " + maxabc);
 
-		
 	}
 }
