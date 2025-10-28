@@ -16,6 +16,6 @@ public class Bill3 {
 		double finalPay = bill/3.0;
 		finalPay = Math.ceil(finalPay);
 
-		System.out.println("Dear "+ name3 + ", " + name2 + " and " + name1 + ":" + " Please pay " + finalPay + " Shekels each.");
+		System.out.println("Dear "+ name3 + ", " + name2 + ", and " + name1 + ":" + " Please pay " + finalPay + " Shekels each");
 	}
 }
